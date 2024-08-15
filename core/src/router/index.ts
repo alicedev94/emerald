@@ -5,7 +5,7 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
-      path: '/etc',
+      path: '/',
       name: 'home',
       component: HomeView
     },
