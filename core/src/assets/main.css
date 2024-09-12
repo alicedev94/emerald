@@ -15,11 +15,35 @@ html {
   font-weight: 16rem;
 }
 
+h1 {
+  font-size: 24rem;
+}
+
+label {
+  font-size: 16rem;
+}
+
+input {
+  inline-size: 350rem;
+  block-size: 45rem;
+  border-style: none;
+  border: 1px solid var(--eme-background);
+  border-radius: 7rem;
+  font-size: 16rem;
+  color: var(--eme-background);
+}
+
+input:focus {
+  transition: 0.1s;
+  scale: 105%;
+  outline: none;
+}
+
 /* global config styles */
 .container-app {
   display: flex;
   justify-content: center;
-  width: 100%;
+  inline-size: 100%;
 }
 
 .title-app {
@@ -36,8 +60,8 @@ html {
 }
 
 /* Grid config */
-.grid-container {
+/* .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 0.6fr);
-}
+} */
