@@ -12,4 +12,19 @@
 
 .card {
   width: 640px;
+  margin-top: 130px;
+}
+
+.nav {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  border: 1px solid gainsboro;
+}
+
+.bg-gray {
+  /* background-color: #323225; */
+  background-color: transparent;
 }
