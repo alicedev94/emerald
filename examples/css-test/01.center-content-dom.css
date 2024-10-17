@@ -1,4 +1,15 @@
+@import url("00.fonts.css");
+
+.text-center {
+  text-align: center;
+  /* color: white; */
+}
+
 .center {
   display: flex;
   justify-content: center;
+}
+
+.card {
+  width: 640px;
 }
