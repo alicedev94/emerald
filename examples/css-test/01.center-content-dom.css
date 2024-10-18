@@ -3,7 +3,20 @@
 h1 {
   font-size: 36px;
   line-height: 43px;
+  color: #1a202c;
 }
+
+P {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(240, 231, 219);
+  color: #1a202c;
+}
+body {
+  background-color: rgb(240, 231, 219);
+  color: #1a202c;
+}
+
 .text-center {
   text-align: center;
   /* color: white; */
@@ -22,7 +35,10 @@ h1 {
 .header {
   display: flex;
   justify-content: center;
+  position: fixed;
   align-items: center;
+  height: 80px;
+  width: 100%;
 }
 
 .nav {
@@ -30,15 +46,19 @@ h1 {
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
-  z-index: 1000;
+  z-index: 2;
   width: 50%;
   /* border: 1px solid gainsboro; */
 }
 
 .bg-gray {
   /* background-color: #323225; */
-  background-color: transparent;
+  /* background-color: transparent; */
+
+  background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(10px);
 }
+
+/* <a href="https://www.flaticon.es/iconos-gratis/oscuro" title="oscuro iconos">Oscuro iconos creados por meaicon - Flaticon</a> */

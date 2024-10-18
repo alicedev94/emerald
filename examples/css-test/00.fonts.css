@@ -5,6 +5,16 @@
   font-style: normal;
 } */
 
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.exo-2-400 {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .m-plus-rounded-1c-regular {
   font-family: "M PLUS Rounded 1c";
   font-weight: 400;
@@ -22,6 +32,49 @@
   font-weight: 900;
   font-style: normal;
 }
+
+.crimson-text-regular {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.crimson-text-bold {
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.crimson-text-regular-italic {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.arvo-regular {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arvo-bold {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.arvo-regular-italic {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.arvo-bold-italic {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
 /* body {
   font-family: "Quicksand", sans-serif;
 
@@ -29,9 +82,9 @@
   font-style: normal;
   background-color: #323235;
 } */
-
+/* 
 p {
   font-size: 16px;
   line-height: 24px;
-  /* color: white; */
-}
+  color: #1a202c;
+} */
