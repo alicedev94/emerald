@@ -1,5 +1,9 @@
 @import url("00.fonts.css");
 
+h1 {
+  font-size: 36px;
+  line-height: 43px;
+}
 .text-center {
   text-align: center;
   /* color: white; */
@@ -11,20 +15,30 @@
 }
 
 .card {
-  width: 640px;
+  width: 475px;
   margin-top: 130px;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .nav {
-  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 80px;
   position: fixed;
   top: 0;
   z-index: 1000;
-  border: 1px solid gainsboro;
+  width: 50%;
+  /* border: 1px solid gainsboro; */
 }
 
 .bg-gray {
   /* background-color: #323225; */
   background-color: transparent;
+  backdrop-filter: blur(10px);
 }
