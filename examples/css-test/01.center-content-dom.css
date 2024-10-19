@@ -61,21 +61,25 @@ P {
   transition: background-color 0.5s ease;
   /* background-color: #1a202c; */
   background-color: rgb(32, 32, 35);
-  color: rgb(240, 231, 219);
+  color: white;
+  /* color: rgb(240, 231, 219); */
 }
 
 .eme-light {
   transition: background-color 1s ease;
   background-color: rgb(240, 231, 219);
-  color: #1a202c;
+  /* color: #1a202c; */
+  color: black;
 }
 
 .eme-nav-light {
+  transition: background-color 1s ease;
   background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(10px);
 }
 
 .eme-nav-dark {
+  transition: background-color 1s ease;
   backdrop-filter: blur(10px);
 }
 
@@ -89,13 +93,13 @@ P {
 }
 
 .eme-content-dark {
-  /* background-color: rgb(255, 255, 255, 0.95); */
-  background-color: rebeccapurple;
+  transition: background-color 1s ease;
+  background-color: rgb(255, 255, 255, 0.05);
 }
 
 .eme-content-light {
-  /* background-color: rgb(255, 255, 255, 0.3); */
-  background-color: red;
+  transition: background-color 1s ease;
+  background-color: rgb(255, 255, 255, 0.25);
 }
 
 /* <a href="https://www.flaticon.es/iconos-gratis/oscuro" title="oscuro iconos">Oscuro iconos creados por meaicon - Flaticon</a> */

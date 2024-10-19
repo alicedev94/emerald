@@ -3,7 +3,7 @@ const card = document.querySelector(".card");
 const navTheme = document.querySelector(".nav-theme");
 const body = document.querySelector(".body");
 const header = document.querySelector("header");
-const content = document.querySelector("eme-content");
+const content = document.querySelector(".content");
 
 // Events
 navTheme.addEventListener("click", changeTheme);
@@ -24,6 +24,7 @@ function changeTheme() {
   body.classList.toggle("eme-dark");
   content.classList.toggle("eme-content-light");
   content.classList.toggle("eme-content-dark");
+  console.log("click 2", content);
 }
 
 createList();
