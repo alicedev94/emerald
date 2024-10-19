@@ -3,20 +3,12 @@
 h1 {
   font-size: 36px;
   line-height: 43px;
-  color: #1a202c;
 }
 
 P {
   font-size: 16px;
   line-height: 24px;
-  color: rgb(240, 231, 219);
-  color: #1a202c;
 }
-body {
-  background-color: rgb(240, 231, 219);
-  color: #1a202c;
-}
-
 .text-center {
   text-align: center;
   /* color: white; */
@@ -29,7 +21,9 @@ body {
 
 .card {
   width: 475px;
-  margin-top: 130px;
+  /* background-color: blue;
+  border: 1px solid black; */
+  margin-top: 100px;
 }
 
 .header {
@@ -49,16 +43,59 @@ body {
   /* position: fixed; */
   top: 0;
   z-index: 2;
-  width: 50%;
+  width: 40%;
+
   /* border: 1px solid gainsboro; */
 }
-
+/* 
 .bg-gray {
-  /* background-color: #323225; */
-  /* background-color: transparent; */
+  background-color: #323225;
+  background-color: transparent;
 
   background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(10px);
+} */
+
+/* theme  */
+.eme-dark {
+  transition: background-color 0.5s ease;
+  /* background-color: #1a202c; */
+  background-color: rgb(32, 32, 35);
+  color: rgb(240, 231, 219);
+}
+
+.eme-light {
+  transition: background-color 1s ease;
+  background-color: rgb(240, 231, 219);
+  color: #1a202c;
+}
+
+.eme-nav-light {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+}
+
+.eme-nav-dark {
+  backdrop-filter: blur(10px);
+}
+
+/* eme */
+
+.content {
+  padding: 1px;
+  border-radius: 10px;
+  /* background-color: rgb(255, 255, 255, 0.45); */
+  /* 0.45 */
+}
+
+.eme-content-dark {
+  /* background-color: rgb(255, 255, 255, 0.95); */
+  background-color: rebeccapurple;
+}
+
+.eme-content-light {
+  /* background-color: rgb(255, 255, 255, 0.3); */
+  background-color: red;
 }
 
 /* <a href="https://www.flaticon.es/iconos-gratis/oscuro" title="oscuro iconos">Oscuro iconos creados por meaicon - Flaticon</a> */
