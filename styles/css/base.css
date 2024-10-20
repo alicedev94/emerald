@@ -1,0 +1,29 @@
+/* Apply the box-sizing property to all elements and their pseudo-elements */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Set the box-sizing property for the root element (html) */
+html {
+  font-size: 62.5%; /* 1 rem = 10px */
+  box-sizing: border-box;
+}
+
+/* Default settings */
+h1 {
+  font-size: 36rem;
+}
+
+h2 {
+  font-size: 30rem;
+}
+
+p {
+  font-size: 16rem;
+}
+
+a {
+  font-size: 14rem;
+}
