@@ -1,3 +1,9 @@
+@import url("./custom.css");
+@import url("./color.css");
+@import url("./normalize_v8.0.1.css");
+@import url("./theme.css");
+@import url("./utils.css");
+
 /* Apply the box-sizing property to all elements and their pseudo-elements */
 *,
 *::before,
@@ -13,17 +19,23 @@ html {
 
 /* Default settings */
 h1 {
-  font-size: 36rem;
+  font-size: 3.6rem;
+  line-height: 4.3rem;
 }
 
 h2 {
-  font-size: 30rem;
+  font-size: 2rem;
+  line-height: 2.4rem;
 }
 
 p {
-  font-size: 16rem;
+  font-size: 1.6rem;
+  line-height: 24px;
 }
 
 a {
-  font-size: 14rem;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  text-decoration: none;
+  color: var(--eme-color-black);
 }

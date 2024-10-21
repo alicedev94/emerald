@@ -1,0 +1,11 @@
+:root {
+  /* Base color */
+  --eme-color-white-1: #ffffff;
+  --eme-color-white-2: #ffffff0d;
+  --eme-color-white-3: #ffffff40;
+  --eme-color-black: #000000;
+
+  /* Theme */
+  --eme-color-light: #f0e7db;
+  --eme-color-dark: #202023;
+}

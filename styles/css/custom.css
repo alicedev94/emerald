@@ -1,0 +1,39 @@
+/* Text */
+.eme-text-center {
+  text-align: center;
+}
+
+/* Components */
+
+/* Card */
+.eme-card {
+  width: 47.5rem;
+  margin-top: 10rem;
+}
+
+/* Header */
+.eme-header {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  align-items: center;
+  height: 8rem;
+  width: 100%;
+}
+
+/* Nav */
+.eme-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  top: 0;
+  z-index: 2;
+  width: 40%;
+}
+
+/* Content  */
+.eme-content {
+  padding: 1px;
+  border-radius: 10px;
+}

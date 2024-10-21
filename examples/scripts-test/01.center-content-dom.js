@@ -1,9 +1,9 @@
 const list = document.querySelector(".list");
-const card = document.querySelector(".card");
-const navTheme = document.querySelector(".nav-theme");
+const card = document.querySelector(".eme-card");
+const navTheme = document.querySelector(".eme-nav-theme");
 const body = document.querySelector(".body");
 const header = document.querySelector("header");
-const content = document.querySelector(".content");
+const content = document.querySelector(".eme-content");
 
 // Events
 navTheme.addEventListener("click", changeTheme);
