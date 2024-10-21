@@ -52,6 +52,24 @@
   justify-content: center;
 }
 
+.eme-orizontal {
+  display: flex;
+  flex-direction: column;
+}
+
+.eme-vertical {
+  display: flex;
+}
+
+/* Text */
+.eme-text-center {
+  text-align: center;
+}
+
+.eme-text-init {
+  text-indent: 1.75rem;
+}
+
 /* Transition */
 .principal-trasition {
   transition: background-color 1s ease;

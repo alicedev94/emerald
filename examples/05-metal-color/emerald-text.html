@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degradado Esmeralda en Texto</title>
+    <style>
+        .emerald-text {
+            font-size: 48px;
+            font-weight: bold;
+            background: linear-gradient(45deg, #50C878, #7FFFD4, #008B8B, #50C878);
+            background-size: 400% 400%;
+            animation: sparkle 4.5s linear infinite;
+            -webkit-background-clip: text;
+            color: transparent;
+            text-align: center;
+        }
+
+        @keyframes sparkle {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p class="emerald-text">Texto Brillante</p>
+</body>
+
+</html>
