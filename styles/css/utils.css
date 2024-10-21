@@ -1,0 +1,80 @@
+/* Fonts for google api */
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* M PLUS Rounded 1c  */
+.m-plus-rounded-1c-regular {
+  font-family: "M PLUS Rounded 1c";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.m-plus-rounded-1c-bold {
+  font-family: "M PLUS Rounded 1c";
+  font-weight: 700;
+  font-style: normal;
+}
+
+.m-plus-rounded-1c-black {
+  font-family: "M PLUS Rounded 1c";
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Arvo */
+.arvo-regular {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arvo-bold {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.arvo-regular-italic {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.arvo-bold-italic {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.segoe-UI {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Core app */
+.eme-core-center-app {
+  display: flex;
+  justify-content: center;
+}
+
+.eme-orizontal {
+  display: flex;
+  flex-direction: column;
+}
+
+.eme-vertical {
+  display: flex;
+}
+
+/* Text */
+.eme-text-center {
+  text-align: center;
+}
+
+.eme-text-init {
+  text-indent: 1.75rem;
+}
+
+/* Transition */
+.principal-trasition {
+  transition: background-color 1s ease;
+}

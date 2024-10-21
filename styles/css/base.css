@@ -1,0 +1,45 @@
+@import url("./color.css");
+@import url("./custom.css");
+@import url("./normalize_v8.0.1.css");
+@import url("./theme.css");
+@import url("./utils.css");
+@import url("./responsive_desing.css");
+
+/* Apply the box-sizing property to all elements and their pseudo-elements */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Set the box-sizing property for the root element (html) */
+html {
+  font-size: 62.5%;
+  /* 1 rem = 10px */
+  box-sizing: border-box;
+}
+
+/* Default settings */
+h1 {
+  font-size: 3.6rem;
+  line-height: 4.3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 24px;
+  margin: 0 0.5rem;
+  text-align: justify;
+}
+
+a {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  text-decoration: none;
+  color: var(--eme-color-light-gray);
+}

@@ -1,0 +1,33 @@
+.eme-dark {
+  background-color: var(--eme-color-dark);
+  color: var(--eme-color-light);
+}
+
+.eme-light {
+  background-color: var(--eme-color-light);
+  color: var(--eme-color-black);
+}
+
+.eme-nav-light {
+  background: var(--eme-color-white-3);
+  backdrop-filter: blur(1rem);
+}
+
+.eme-nav-dark {
+  backdrop-filter: blur(1rem);
+}
+
+.eme-content-dark {
+  background-color: var(--eme-color-white-2);
+}
+
+.eme-content-light {
+  background-color: var(--eme-color-white-3);
+}
+
+/* .eme-footer-dark {
+
+}
+.eme-footer-light {
+
+} */

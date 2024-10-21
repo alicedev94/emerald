@@ -1,0 +1,16 @@
+:root {
+  /* Base color */
+  --eme-color-white-1: #ffffff;
+  --eme-color-white-2: #ffffff0d;
+  --eme-color-white-3: #ffffff40;
+  --eme-color-black: #000000;
+  --eme-color-light-gray: #c2c2c2;
+
+  /* Gradient test */
+  /* background: linear-gradient(45deg, #DAA520, #FFD700, #FFC300, #FFEC8B);
+  background: linear-gradient(45deg, #C0C0C0, #D3D3D3, #A9A9A9, #F5F5F5); */
+
+  /* Theme */
+  --eme-color-light: #f0e7db;
+  --eme-color-dark: #202023;
+}

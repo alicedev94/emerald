@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px) {
+    .eme-nav {
+        width: 80%;
+    }
+
+    .eme-card {
+        width: 35rem;
+        margin-top: 10rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+}
