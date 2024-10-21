@@ -41,4 +41,5 @@ a {
   font-size: 1.4rem;
   line-height: 2.1rem;
   text-decoration: none;
+  color: var(--eme-color-light-gray);
 }
